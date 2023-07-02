@@ -67,7 +67,7 @@
                     <label for="technology-{{ $technology->id }}">{{ $technology->name }}</label>
                 </div>
             @endforeach
-            @error('creation_date')
+            @error('technologies')
                 <div class="invalid-feedback">
                     {{ $message }}
                 </div>
